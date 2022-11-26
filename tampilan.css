@@ -1,0 +1,105 @@
+.header{
+    top: 0px;
+    min-width: 200px;
+    max-width: 1200px;
+}
+
+.nav_top{
+    position: sticky;
+    background: rgb(6,57,112);
+    min-width: 200px;
+    max-width: 1200px;
+    top: 0px;
+    padding-block: 10px;
+    height: 40px;
+}
+.nav_isi{
+    text-align: right;
+}
+.nav_isi>li{
+    display: inline-block;
+    padding-inline: 10px;
+
+}
+#judul{
+    font-size: 14px;
+    color:white;
+    font-family: Verdana;
+    font-weight: bold;
+    float: left;
+    padding-left: 0%;
+}
+#icon{
+    font-size: 12px;
+    font-family: Verdana;
+    transition:0.5s;
+    color: white;
+}
+#icon:hover{
+    font-size: 14px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    transition-timing-function: ease
+}
+.konten {
+    width: 1200px;
+    margin: auto;
+}
+.kolom1{
+    width: 250px;
+    float: left;
+    margin: 10px;
+    background: lightgrey;
+    font-size: 14px;
+}
+.kolom2{
+    width: 600px;
+    float: left;
+    margin: 10px;
+    font-size: 14px;
+}
+.kolom3{
+    width: 280px;
+    float: left;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    background: lightgrey;
+}
+#Menu{
+    line-height: 2.5em;
+    list-style-type: none;
+}
+#bolding{
+    font-family: Verdana;
+    font-weight: bold;
+}
+.desc{
+    font-family: Verdana;
+    font-weight: lighter;
+}
+footer{
+    background-color:  rgb(6,57,112);
+    text-align: right;
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: -130px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#foot-judul{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#foot-ket{
+    color: white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
